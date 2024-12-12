@@ -3,7 +3,7 @@ from os import environ
 API_ID = int(environ.get("API_ID", ""))
 API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002328437358"))
 ADMINS = int(environ.get("ADMINS", ""))
 DB_URI = environ.get("DB_URI", "")
 DB_NAME = environ.get("DB_NAME", "vjjoinrequetbot")
