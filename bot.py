@@ -29,4 +29,4 @@ class Bot(Client):
         await super().stop()
         print('Bot Stopped Bye')
 
-Bot().run()
+app.run()
