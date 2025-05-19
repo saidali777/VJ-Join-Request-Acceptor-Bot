@@ -6,8 +6,8 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
         "vj join request bot",
-         api_id=API_ID,
-         api_hash=API_HASH,
+         api_id=API_ID,'12618934'
+         api_hash=API_HASH,'49aacd0bc2f8924add29fb02e20c8a16'
          bot_token=BOT_TOKEN,
          plugins=dict(root="plugins"),
          workers=50,
